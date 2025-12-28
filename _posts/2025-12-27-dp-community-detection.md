@@ -84,8 +84,8 @@ math: true
 #### 4.2.1 Bayseian Sampling Mechanism
 
 - Algorithm
-  - For every $ \sigma \in \mathcal{L} $, calculate $ Pr (\sigma | G) $.
-  - Sample and output a labeling $ \hat{\sigma} \in \mathcal{L} $ with probability $ Pr (\hat{\sigma} | G) $.
+  - For every $ \sigma \in \mathcal{L} $, calculate $ \Pr(\sigma \mid G) $.
+  - Sample and output a labeling $ \hat{\sigma} \in \mathcal{L} $ with probability $ \Pr(\hat{\sigma} \mid G) $.
 <br>
 
 - Privacy Analysis

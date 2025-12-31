@@ -30,6 +30,7 @@ math: true
   - The malicious (releasing) entity can abuse the protocol and pick noise chosen to distort the statistics.
   - To ensure public trust in DP, it is critical to verify that any loss in utility can be attributed solely to unavoidable DP randomness.
 <br>
+
 - **Indistinguishability**: two probability distributions are computationally indistinguishable if for all non-uniform PPT turing machines $ D $("distinguishers"), the two output distributions of $ D $ differ by at most a negligible function.
   - Formally, $ \forall D, \forall \kappa \in \mathbb{N}, \exists \mu (\kappa) $ negligible s.t. $ \vert \Pr[D(X_{\kappa}) = 1] - \Pr[D(Y_{\kappa}) = 1] \vert \leq \mu (\kappa)$.
 - **Commitments**: Ensures that participants cannot change their response during the protocol.
@@ -41,6 +42,7 @@ math: true
 - **Homomorphic Commitments**
   - For all $ x_{1}, x_{2} \in M_{pp} $ and  $ r_{1}, r_{2} \in R_{pp} $, operator $ \otimes $ satisfies $ Com(x_{1}, r_{1}) \otimes Com(x_{2}, r_{2}) = Com(x_{1} + x_{2}, r_{1} + r_{2}) $.
 <br> 
+
 - **Information Theoric DP**: Original privacy definition.
   - An algorithm $ M : \mathcal{X}^{n} \times \mathcal Q \rightarrow \mathcal{Y}$ satsifies $(\epsilon, \delta) $-DP means,
   - For all neighboring datasets $ X \sim X' $, query $ Q \in \mathcal{Q} $, and set of output $ T \subseteq \mathcal{Y} $,
@@ -51,7 +53,7 @@ math: true
   - The family of algorithms $ M = \{ M_{\kappa} : \mathcal{X}^{n}_{\kappa} \rightarrow \mathcal{Y}_{\kappa} \} $ is computationally $\epsilon$-DP means,
   - For all non-uniform PPT turing machines $ D $, $ X \sim X' $, $ T \subseteq \mathcal{Y}_{\kappa} $,
   - $ \Pr[D(M_{\kappa}(X, Q) \in T) = 1] \leq e^{\epsilon} \Pr[D(M_{\kappa}(X', Q) \in T) = 1] + \delta(\kappa) $.
-- **DP error**: Define the expected error of the mechanism $ \mathcal{M} $ relative to $ \mathcal{Q} $ as $ Err_{\mathcal{M}, \mathcal{Q}} = \mathbb{E}[\lVert \mathcal{Q}(X) - \mathcal{M}_{\mathcal{Q}}(X) \rVert_{1}] $.
+- **DP error**: Define the expected error of the mechanism $ \mathcal{M} $ relative to $ \mathcal{Q} $ as $ Err_{\mathcal{M}, \mathcal{Q}} = \mathbb{E}[{\Vert \mathcal{Q}(X) - \mathcal{M}_{\mathcal{Q}}(X) \Vert}_{1}] $.
 
 ---
 

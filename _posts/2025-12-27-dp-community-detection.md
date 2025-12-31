@@ -1,6 +1,6 @@
 ---
 title: "[Paper Review] Differentially Private Community Detection for Stochastic Block Models"
-date: 2025-12-27 23:00:00 +0900
+date: 2025-12-27
 categories: [paper-review, differential-privacy]
 tags: [differential-privacy, graph, community-detection]
 math: true

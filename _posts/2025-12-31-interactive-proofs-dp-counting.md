@@ -1,6 +1,6 @@
 ---
 title: "[Paper Review] Interactive Proofs For Differentially Private Counting"
-date: 2025-12-31 22:00:00 +0900
+date: 2025-12-31
 categories: [paper-review, differential-privacy, cryptography]
 tags: [differential-privacy, cryptography, secure-multiparty-computation, verifiable-computation, zero-knowledge]
 math: true

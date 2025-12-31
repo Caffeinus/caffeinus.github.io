@@ -2,7 +2,7 @@
 title: "[Paper Review] Differentially Private Community Detection for Stochastic Block Models"
 date: 2025-12-27 23:00:00 +0900
 categories: [paper-review, differential-privacy]
-tags: [DP, graph, community-detection, SBM]
+tags: [differential-privacy, graph, community-detection]
 math: true
 ---
 
@@ -135,6 +135,9 @@ math: true
 
 ## 5. My Commentary
 
-- ...
+- On General Graph Models
+  - When applied to more general graph models, the interpretation of the output becomes less clear.
+  - In particular, when the score function is defined as a cut or modularity, exact recovery is unlikely to be achievable in general graphs like Erdős–Rényi Model.
+  - This behavior reflects a model mismatch rather than a failure of the mechanism.
 
 ---

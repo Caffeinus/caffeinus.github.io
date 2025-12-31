@@ -48,10 +48,10 @@ math: true
 - **Computational DP(IND-CDP)**: Indistinguishability concept involved.
   - Fix $ \kappa, n \in \mathbb{N} $.
   - Let $ \delta(\kappa) \leq \kappa^{-\omega(1)} $ be a negligible function.
-  - The family of algorithms $ M = \{ M_{\kappa} : \mathcal{X}^{n}_{\kappa} \rightarrow \mathcal{Y}_{\kappa} \} $ is computationally $ \epsilon $-DP means,
+  - The family of algorithms $ M = \{ M_{\kappa} : \mathcal{X}^{n}_{\kappa} \rightarrow \mathcal{Y}_{\kappa} \} $ is computationally $\epsilon$-DP means,
   - For all non-uniform PPT turing machines $ D $, $ X \sim X' $, $ T \subseteq \mathcal{Y}_{\kappa} $,
   - $ \Pr[D(M_{\kappa}(X, Q) \in T) = 1] \leq e^{\epsilon} \Pr[D(M_{\kappa}(X', Q) \in T) = 1] + \delta(\kappa) $.
-- **DP error**: Define the expected error of the mechanism $ \mathcal{M} $ relative to $ \mathcal{Q} $ as $ Err_{\mathcal{M}, \mathcal{Q}} = \mathbb{E}[\Vert \mathcal{Q}(X) - \mathcal{M}_{\mathcal{Q}}(X) \Vert_{1}] $.
+- **DP error**: Define the expected error of the mechanism $ \mathcal{M} $ relative to $ \mathcal{Q} $ as $ Err_{\mathcal{M}, \mathcal{Q}} = \mathbb{E}[\lVert \mathcal{Q}(X) - \mathcal{M}_{\mathcal{Q}}(X) \rVert_{1}] $.
 
 ---
 
